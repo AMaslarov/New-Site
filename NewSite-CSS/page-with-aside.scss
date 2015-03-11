@@ -1,0 +1,96 @@
+﻿$green-light: #00cc00;
+$green-dark: #006600;
+$white-blue:#00FFFF;
+$background: #003333;
+$font: #999;
+@import "http://newsite-bg.com/wp-content/uploads/2015/03/full-width-content.css";
+@import  "http://newsite-bg.com/wp-content/uploads/2015/03/full-width-content.css";
+@import "http://newsite-bg.com/wp-content/uploads/2015/03/top-bar.css";
+body {
+        div#content{
+            max-width: none;
+            width: 90%;
+            margin: 0 auto !important;
+            padding: 0 !important;
+            border:none;
+        div.container {
+            margin:0 auto;
+            max-width:none;
+            div.content-area, section.content-area {
+                margin: 0.5%;
+                background: $background;
+                box-shadow: 1px 1px 10px #00cc00;
+                border-radius: 10px;
+                width:100%;
+                main.site-main {
+                    padding:1%;
+                    article {
+                        border-color: $green-light;
+                        header {
+                            text-align:center;
+                        }
+                        p {
+                            font-size :1.6rem;
+                        }
+                    }
+                }
+            }
+            div.widget-area {
+                display:none;
+            }
+        }
+    }
+        footer#colophon {
+            background: #000;
+            border:none;
+            p.copyrignt a {
+                cursor:pointer;
+            }
+        }
+        div#comments {
+            
+            div#respond {
+                h3 {
+                    color:$font ;
+                }
+                form {
+                    p {
+                        color:$font;
+                    }
+                    div{
+                        label {
+                            color:$font;
+                        }
+                        textarea {
+                            background: $background;
+                            color:$font;
+                        } 
+                    }
+                }
+
+            }
+        }
+}
+@media screen and (max-width: 770px) {
+    body {
+        background :#000;
+        div#page {
+            overflow-x: visible;
+            nav#site-navigation {
+                width:100%;
+                div.td_mobile_menu_wrap {
+                    background: #000;
+                    select {
+                        background : $green-dark;
+                        margin: 0 auto;
+                        color:#000;
+                    }
+                }
+            }
+        }
+        div#primary {
+            margin: 6% 0 0 0 !important;
+        }
+        }
+}
+

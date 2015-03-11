@@ -1,0 +1,61 @@
+﻿@import url(http://newsite-bg.com/wp-content/uploads/2015/03/full-width-content.css);
+@import url(http://newsite-bg.com/wp-content/uploads/2015/03/full-width-content.css);
+@import url(http://newsite-bg.com/wp-content/uploads/2015/03/top-bar.css);
+body div#content {
+  max-width: none;
+  width: 90%;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  border: none; }
+  body div#content div.container {
+    margin: 0 auto;
+    max-width: none; }
+    body div#content div.container div.content-area, body div#content div.container section.content-area {
+      margin: 0.5%;
+      background: #003333;
+      box-shadow: 1px 1px 10px #00cc00;
+      border-radius: 10px;
+      width: 100%; }
+      body div#content div.container div.content-area main.site-main, body div#content div.container section.content-area main.site-main {
+        padding: 1%; }
+        body div#content div.container div.content-area main.site-main article, body div#content div.container section.content-area main.site-main article {
+          border-color: #00cc00; }
+          body div#content div.container div.content-area main.site-main article header, body div#content div.container section.content-area main.site-main article header {
+            text-align: center; }
+          body div#content div.container div.content-area main.site-main article p, body div#content div.container section.content-area main.site-main article p {
+            font-size: 1.6rem; }
+    body div#content div.container div.widget-area {
+      display: none; }
+body footer#colophon {
+  background: #000;
+  border: none; }
+  body footer#colophon p.copyrignt a {
+    cursor: pointer; }
+body div#comments div#respond h3 {
+  color: #999; }
+body div#comments div#respond form p {
+  color: #999; }
+body div#comments div#respond form div label {
+  color: #999; }
+body div#comments div#respond form div textarea {
+  background: #003333;
+  color: #999; }
+
+@media screen and (max-width: 770px) {
+  body {
+    background: #000; }
+    body div#page {
+      overflow-x: visible; }
+      body div#page nav#site-navigation {
+        width: 100%; }
+        body div#page nav#site-navigation div.td_mobile_menu_wrap {
+          background: #000; }
+          body div#page nav#site-navigation div.td_mobile_menu_wrap select {
+            background: #006600;
+            margin: 0 auto;
+            color: #000; }
+    body div#primary {
+      margin: 6% 0 0 0 !important; }
+ }
+
+/*# sourceMappingURL=page-with-aside.css.map */

@@ -1,0 +1,32 @@
+﻿@import url("http://newsite-bg.com/wp-content/uploads/2015/03/proecti.css");
+div#top-bar {
+  background: #000;
+  border-bottom: 1px dotted #00cc00; }
+  div#top-bar div.container div#top-navigation select#ppqtrans_select_qtranslate-6-chooser {
+    background: #006600;
+    color: #000; }
+  div#top-bar div.container div.top-search-icon i.fa-search:hover {
+    color: #00cc00; }
+
+div#header-top {
+  background: #003333; }
+  div#header-top header#masthead div.site-branding {
+    margin: 10px; }
+    div#header-top header#masthead div.site-branding h1.logo-container {
+      margin: 0; }
+
+div#header-2 {
+  border-top: 1px solid #00cc00;
+  border-bottom: 1px solid #00cc00;
+  background: #000; }
+  div#header-2 div.container div.menu-main-menu-container ul#menu-main-menu {
+    background: #000; }
+    div#header-2 div.container div.menu-main-menu-container ul#menu-main-menu li#menu-item a {
+      color: #00FFFF !important; }
+    div#header-2 div.container div.menu-main-menu-container ul#menu-main-menu li#menu-item a:hover {
+      color: #00cc00 !important; }
+    div#header-2 div.container div.menu-main-menu-container ul#menu-main-menu li.current-menu-item a {
+      color: #00cc00 !important;
+      text-shadow: 0 0 15px #00cc00; }
+
+/*# sourceMappingURL=top-bar.css.map */
